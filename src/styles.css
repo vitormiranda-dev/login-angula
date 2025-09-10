@@ -1,17 +1,4 @@
-
-body{
-     font-family: "Roboto", sans-serif;
 }
-
-h1{
-    font-size: 25px;
-    
-}
- p{
-    font-size: 14px;
-     
-     
- }
  input{
     height: 54px;
   
@@ -23,5 +10,37 @@ h1{
  button{
     height: 52px;
     
+    
  }
 
+.forgot{
+    color: #324dff;
+    
+}
+a{
+   text-decoration: none !important;
+   color: #324dff !important;
+   font-weight: 500;
+}
+.btn-primary{
+    background-color: #324dff !important;
+    border: none !important;
+}
+
+.password-container {
+      position: relative;
+      width: 100%;
+      
+    }
+    .password-container input.form-control {
+      padding-right: 40px; 
+    }
+    .toggle-password {
+      position: absolute;
+      right: 10px;
+      top: 50%;
+      transform: translateY(-50%);
+      cursor: pointer;
+      
+      color: #666;
+    }
